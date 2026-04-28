@@ -1,0 +1,37 @@
+# Node / Bun
+node_modules/
+bun.lockb
+
+# Build outputs
+dist/
+out/
+*.tgz
+*.tsbuildinfo
+
+# Coverage
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+
+# Rust
+target/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Caches
+.cache/
+.eslintcache
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Misc
+*.swp
